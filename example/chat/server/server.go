@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/99designs/gqlgen/example/chat"
-	"github.com/99designs/gqlgen/handler"
+	"github.com/DoNotPayHQ/gqlgen-fork/example/chat"
+	"github.com/DoNotPayHQ/gqlgen-fork/handler"
 	"github.com/gorilla/websocket"
 	"github.com/opentracing/opentracing-go"
 	"github.com/rs/cors"

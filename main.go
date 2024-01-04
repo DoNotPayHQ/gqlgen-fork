@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/99designs/gqlgen/cmd"
+	"github.com/DoNotPayHQ/gqlgen-fork/cmd"
 )
 
 func main() {
