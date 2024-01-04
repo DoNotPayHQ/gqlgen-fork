@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/99designs/gqlgen/client"
-	"github.com/99designs/gqlgen/codegen/testserver/otherpkg"
-	"github.com/99designs/gqlgen/handler"
+	"github.com/DoNotPayHQ/gqlgen-fork/client"
+	"github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver/otherpkg"
+	"github.com/DoNotPayHQ/gqlgen-fork/handler"
 	"github.com/stretchr/testify/require"
 )
 

@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/99designs/gqlgen/client"
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/DoNotPayHQ/gqlgen-fork/client"
+	"github.com/DoNotPayHQ/gqlgen-fork/graphql"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

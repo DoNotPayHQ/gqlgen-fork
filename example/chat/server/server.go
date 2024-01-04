@@ -3,12 +3,12 @@ package main
 import (
 	"log"
 	"net/http"
-	"time"
+	//"time"
 
 	"github.com/DoNotPayHQ/gqlgen-fork/example/chat"
 	"github.com/DoNotPayHQ/gqlgen-fork/handler"
 	"github.com/gorilla/websocket"
-	"github.com/opentracing/opentracing-go"
+	//"github.com/opentracing/opentracing-go"
 	"github.com/rs/cors"
 )
 
