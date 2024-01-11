@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
-	models "github.com/99designs/gqlgen/integration/models-go"
-	"github.com/99designs/gqlgen/integration/remote_api"
+	models "github.com/DoNotPayHQ/gqlgen-fork/integration/models-go"
+	"github.com/DoNotPayHQ/gqlgen-fork/integration/remote_api"
 )
 
 type CustomError struct {

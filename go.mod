@@ -12,7 +12,7 @@ require (
 	github.com/opentracing/opentracing-go v1.0.2
 	github.com/pkg/errors v0.8.1
 	github.com/rs/cors v1.6.0
-	github.com/stretchr/testify v1.3.0
+	github.com/stretchr/testify v1.8.4
 	github.com/urfave/cli v1.20.0
 	github.com/vektah/dataloaden v0.2.1-0.20190515034641-a19b9a6e7c9e
 	github.com/vektah/gqlparser v1.1.2

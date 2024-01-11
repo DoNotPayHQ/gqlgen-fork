@@ -134,4 +134,4 @@ That invokes the following operation:
 }
 ```
 
-see the [example/fileupload](https://github.com/99designs/gqlgen/tree/master/example/fileupload) package for more examples.
+see the [example/fileupload](https://github.com/DoNotPayHQ/gqlgen-fork/tree/master/example/fileupload) package for more examples.

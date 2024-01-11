@@ -4,12 +4,12 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/99designs/gqlgen/internal/code"
+	"github.com/DoNotPayHQ/gqlgen-fork/internal/code"
 
-	"github.com/99designs/gqlgen/codegen"
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/codegen/templates"
-	"github.com/99designs/gqlgen/plugin"
+	"github.com/DoNotPayHQ/gqlgen-fork/codegen"
+	"github.com/DoNotPayHQ/gqlgen-fork/codegen/config"
+	"github.com/DoNotPayHQ/gqlgen-fork/codegen/templates"
+	"github.com/DoNotPayHQ/gqlgen-fork/plugin"
 )
 
 func New(filename string, typename string) plugin.Plugin {

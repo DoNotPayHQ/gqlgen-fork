@@ -5,8 +5,8 @@ import (
 	"go/token"
 	"go/types"
 
-	"github.com/99designs/gqlgen/codegen/templates"
-	"github.com/99designs/gqlgen/internal/code"
+	"github.com/DoNotPayHQ/gqlgen-fork/templates"
+	"github.com/DoNotPayHQ/gqlgen-fork/internal/code"
 	"github.com/pkg/errors"
 	"github.com/vektah/gqlparser/ast"
 	"golang.org/x/tools/go/packages"

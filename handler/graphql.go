@@ -16,8 +16,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/99designs/gqlgen/complexity"
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/DoNotPayHQ/gqlgen-fork/complexity"
+	"github.com/DoNotPayHQ/gqlgen-fork/graphql"
 	"github.com/gorilla/websocket"
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/vektah/gqlparser/ast"

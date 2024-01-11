@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/99designs/gqlgen/api"
-	"github.com/99designs/gqlgen/codegen/config"
+	"github.com/DoNotPayHQ/gqlgen-fork/api"
+	"github.com/DoNotPayHQ/gqlgen-fork/codegen/config"
 	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 )

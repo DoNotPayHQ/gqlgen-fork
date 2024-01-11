@@ -5,9 +5,9 @@ import (
 	"go/types"
 	"sort"
 
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/codegen/templates"
-	"github.com/99designs/gqlgen/plugin"
+	"github.com/DoNotPayHQ/gqlgen-fork/codegen/config"
+	"github.com/DoNotPayHQ/gqlgen-fork/codegen/templates"
+	"github.com/DoNotPayHQ/gqlgen-fork/plugin"
 	"github.com/vektah/gqlparser/ast"
 )
 
@@ -214,7 +214,7 @@ func (m *Plugin) MutateConfig(cfg *config.Config) error {
 		cfg.Models.Add(it.Name, cfg.Model.ImportPath()+"."+templates.ToGo(it.Name))
 	}
 	for _, it := range b.Scalars {
-		cfg.Models.Add(it, "github.com/99designs/gqlgen/graphql.String")
+		cfg.Models.Add(it, "github.com/DoNotPayHQ/gqlgen-fork/graphql.String")
 	}
 
 	if len(b.Models) == 0 && len(b.Enums) == 0 {

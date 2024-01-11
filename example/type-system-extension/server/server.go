@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"os"
 
-	extension "github.com/99designs/gqlgen/example/type-system-extension"
-	"github.com/99designs/gqlgen/handler"
+	extension "github.com/DoNotPayHQ/gqlgen-fork/example/type-system-extension"
+	"github.com/DoNotPayHQ/gqlgen-fork/handler"
 )
 
 const defaultPort = "8080"

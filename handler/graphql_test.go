@@ -14,7 +14,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/DoNotPayHQ/gqlgen-fork/graphql"
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

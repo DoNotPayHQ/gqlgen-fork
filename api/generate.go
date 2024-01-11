@@ -3,12 +3,12 @@ package api
 import (
 	"syscall"
 
-	"github.com/99designs/gqlgen/codegen"
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/plugin"
-	"github.com/99designs/gqlgen/plugin/modelgen"
-	"github.com/99designs/gqlgen/plugin/resolvergen"
-	"github.com/99designs/gqlgen/plugin/schemaconfig"
+	"github.com/DoNotPayHQ/gqlgen-fork/codegen"
+	"github.com/DoNotPayHQ/gqlgen-fork/codegen/config"
+	"github.com/DoNotPayHQ/gqlgen-fork/plugin"
+	"github.com/DoNotPayHQ/gqlgen-fork/plugin/modelgen"
+	"github.com/DoNotPayHQ/gqlgen-fork/plugin/resolvergen"
+	"github.com/DoNotPayHQ/gqlgen-fork/plugin/schemaconfig"
 	"github.com/pkg/errors"
 	"golang.org/x/tools/go/packages"
 )

@@ -1,7 +1,7 @@
 package codegen
 
 import (
-	"github.com/99designs/gqlgen/codegen/config"
+	"github.com/DoNotPayHQ/gqlgen-fork/codegen/config"
 )
 
 func (b *builder) buildTypes() map[string]*config.TypeReference {

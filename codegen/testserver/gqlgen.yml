@@ -11,38 +11,38 @@ resolver:
 
 models:
   It:
-    model: "github.com/99designs/gqlgen/codegen/testserver/introspection.It"
+    model: "github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver/introspection.It"
   ModelMethods:
-    model: "github.com/99designs/gqlgen/codegen/testserver.ModelMethods"
+    model: "github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver.ModelMethods"
   InvalidIdentifier:
-    model: "github.com/99designs/gqlgen/codegen/testserver/invalid-packagename.InvalidIdentifier"
+    model: "github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver/invalid-packagename.InvalidIdentifier"
   Changes:
     model: "map[string]interface{}"
   RecursiveInputSlice:
-    model: "github.com/99designs/gqlgen/codegen/testserver.RecursiveInputSlice"
+    model: "github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver.RecursiveInputSlice"
   Shape:
-    model: "github.com/99designs/gqlgen/codegen/testserver.Shape"
+    model: "github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver.Shape"
   ShapeUnion:
-    model: "github.com/99designs/gqlgen/codegen/testserver.ShapeUnion"
+    model: "github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver.ShapeUnion"
   Circle:
-    model: "github.com/99designs/gqlgen/codegen/testserver.Circle"
+    model: "github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver.Circle"
   Rectangle:
-    model: "github.com/99designs/gqlgen/codegen/testserver.Rectangle"
+    model: "github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver.Rectangle"
   ForcedResolver:
-    model: "github.com/99designs/gqlgen/codegen/testserver.ForcedResolver"
+    model: "github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver.ForcedResolver"
     fields:
       field: { resolver: true }
   User:
     fields:
       friends: { resolver: true }
   Error:
-    model: "github.com/99designs/gqlgen/codegen/testserver.Error"
+    model: "github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver.Error"
   Errors:
-    model: "github.com/99designs/gqlgen/codegen/testserver.Errors"
+    model: "github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver.Errors"
   EmbeddedPointer:
-    model: "github.com/99designs/gqlgen/codegen/testserver.EmbeddedPointerModel"
+    model: "github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver.EmbeddedPointerModel"
   ThirdParty:
-    model: "github.com/99designs/gqlgen/codegen/testserver.ThirdParty"
+    model: "github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver.ThirdParty"
   Keywords:
     fields:
       _: { fieldName: Underscore }
@@ -53,32 +53,32 @@ models:
     fields:
       different_case: { fieldName: DifferentCaseOld }
   Panics:
-    model: "github.com/99designs/gqlgen/codegen/testserver.Panics"
+    model: "github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver.Panics"
   MarshalPanic:
-    model: "github.com/99designs/gqlgen/codegen/testserver.MarshalPanic"
+    model: "github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver.MarshalPanic"
   Autobind:
-    model: "github.com/99designs/gqlgen/codegen/testserver.Autobind"
+    model: "github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver.Autobind"
   Primitive:
-    model: "github.com/99designs/gqlgen/codegen/testserver.Primitive"
+    model: "github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver.Primitive"
   PrimitiveString:
-    model: "github.com/99designs/gqlgen/codegen/testserver.PrimitiveString"
+    model: "github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver.PrimitiveString"
   MapStringInterfaceInput:
     model: "map[string]interface{}"
   MapStringInterfaceType:
     model: "map[string]interface{}"
   OverlappingFields:
-    model: "github.com/99designs/gqlgen/codegen/testserver.OverlappingFields"
+    model: "github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver.OverlappingFields"
     fields:
       oneFoo: { fieldName: foo }
       twoFoo: { fieldName: foo }
       oldFoo: { fieldName: foo, resolver: true }
   ObjectDirectivesWithCustomGoModel:
-    model: "github.com/99designs/gqlgen/codegen/testserver.ObjectDirectivesWithCustomGoModel"
+    model: "github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver.ObjectDirectivesWithCustomGoModel"
   FallbackToStringEncoding:
-    model: "github.com/99designs/gqlgen/codegen/testserver.FallbackToStringEncoding"
+    model: "github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver.FallbackToStringEncoding"
   Bytes:
-    model: "github.com/99designs/gqlgen/codegen/testserver.Bytes"
+    model: "github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver.Bytes"
   WrappedStruct:
-    model: "github.com/99designs/gqlgen/codegen/testserver.WrappedStruct"
+    model: "github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver.WrappedStruct"
   WrappedScalar:
-    model: "github.com/99designs/gqlgen/codegen/testserver.WrappedScalar"
+    model: "github.com/DoNotPayHQ/gqlgen-fork/codegen/testserver.WrappedScalar"

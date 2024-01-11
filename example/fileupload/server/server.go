@@ -7,10 +7,10 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/99designs/gqlgen/example/fileupload"
-	"github.com/99designs/gqlgen/example/fileupload/model"
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/handler"
+	"github.com/DoNotPayHQ/gqlgen-fork/example/fileupload"
+	"github.com/DoNotPayHQ/gqlgen-fork/example/fileupload/model"
+	"github.com/DoNotPayHQ/gqlgen-fork/graphql"
+	"github.com/DoNotPayHQ/gqlgen-fork/handler"
 )
 
 func main() {

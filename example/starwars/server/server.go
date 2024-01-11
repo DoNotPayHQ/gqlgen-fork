@@ -6,10 +6,10 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/99designs/gqlgen/example/starwars"
-	"github.com/99designs/gqlgen/example/starwars/generated"
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/handler"
+	"github.com/DoNotPayHQ/gqlgen-fork/example/starwars"
+	"github.com/DoNotPayHQ/gqlgen-fork/example/starwars/generated"
+	"github.com/DoNotPayHQ/gqlgen-fork/graphql"
+	"github.com/DoNotPayHQ/gqlgen-fork/handler"
 )
 
 func main() {

@@ -5,8 +5,8 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/99designs/gqlgen/codegen"
-	"github.com/99designs/gqlgen/codegen/config"
+	"github.com/DoNotPayHQ/gqlgen-fork/codegen"
+	"github.com/DoNotPayHQ/gqlgen-fork/codegen/config"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/tools/go/packages"
 )
@@ -24,7 +24,7 @@ func TestPlugin(t *testing.T) {
 	}
 
 	require.NoError(t, p.GenerateCode(data))
-	assertNoErrors(t, "github.com/99designs/gqlgen/plugin/resolvergen/testdata/out")
+	assertNoErrors(t, "github.com/DoNotPayHQ/gqlgen-fork/plugin/resolvergen/testdata/out")
 }
 
 func assertNoErrors(t *testing.T, pkg string) {

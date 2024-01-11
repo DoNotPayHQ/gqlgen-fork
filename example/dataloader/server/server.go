@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/99designs/gqlgen/example/dataloader"
-	"github.com/99designs/gqlgen/handler"
+	"github.com/DoNotPayHQ/gqlgen-fork/example/dataloader"
+	"github.com/DoNotPayHQ/gqlgen-fork/handler"
 	"github.com/go-chi/chi"
 )
 

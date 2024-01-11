@@ -1,7 +1,7 @@
 package codegen
 
 import (
-	"github.com/99designs/gqlgen/codegen/templates"
+	"github.com/DoNotPayHQ/gqlgen-fork/codegen/templates"
 )
 
 func GenerateCode(data *Data) error {
