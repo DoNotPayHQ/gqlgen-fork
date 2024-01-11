@@ -5,7 +5,7 @@ import (
 	"go/token"
 	"go/types"
 
-	"github.com/DoNotPayHQ/gqlgen-fork/templates"
+	"github.com/DoNotPayHQ/gqlgen-fork/codegen/templates"
 	"github.com/DoNotPayHQ/gqlgen-fork/internal/code"
 	"github.com/pkg/errors"
 	"github.com/vektah/gqlparser/ast"

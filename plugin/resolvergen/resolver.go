@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/DoNotPayHQ/gqlgen-fork/codegen"
-	"github.com/DoNotPayHQ/gqlgen-fork/templates"
+	"github.com/DoNotPayHQ/gqlgen-fork/codegen/templates"
 	"github.com/DoNotPayHQ/gqlgen-fork/plugin"
 	"github.com/pkg/errors"
 )
