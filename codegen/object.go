@@ -6,7 +6,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/DoNotPayHQ/gqlgen-fork/config"
+	"github.com/DoNotPayHQ/gqlgen-fork/codegen/config"
 	"github.com/pkg/errors"
 	"github.com/vektah/gqlparser/ast"
 )
